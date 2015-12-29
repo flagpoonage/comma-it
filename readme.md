@@ -10,7 +10,7 @@ thousandsSeperator: ',',
 decimalSepeartor: '.'
 ```
 
-[![Build status](https://travis-ci.org/AvnerCohen/comma-it.png)](https://travis-ci.org/AvnerCohen/comma-it)
+[![Build status](https://travis-ci.org/flagpoonage/comma-it.png)](https://travis-ci.org/flagpoonage/comma-it)
 
 Tiny module to turn numbers into a more readble amounts by adding commas:
 > 1234.5  => 1,234.50
