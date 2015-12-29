@@ -15,8 +15,8 @@ module.exports = function commaIt(num, options) {
 
     //Set up default seperators
     precision = (options && typeof options['precision'] !== 'undefined' ) ? parseInt(options['precision'], 10) : 2;
-    thousandSeperator = (options && options['thousandSeperator']) || ' ';
-    decimalSeperator = (options && options['decimalSeperator']) || ',';
+    thousandSeperator = (options && options['thousandSeperator']) || ',';
+    decimalSeperator = (options && options['decimalSeperator']) || '.';
     var replacmentRegex = '$1' + thousandSeperator;
 
     //Actual parsing of two side of the number
